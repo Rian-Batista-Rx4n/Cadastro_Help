@@ -1,0 +1,42 @@
+[
+    {
+        "nome_completo": "Rian Batista",
+        "nome_apelido": "Rx4n",
+        "cpf": "1234567890",
+        "email": "rianbatista2006@gmail.com",
+        "senha": "rx4nrx4n",
+        "cep": "15825123"
+    },
+    {
+        "nome_completo": "Rian",
+        "nome_apelido": "Rian",
+        "cpf": "1234567891",
+        "email": "rafael@gmail.com",
+        "senha": "1234",
+        "cep": "1234"
+    },
+    {
+        "nome_completo": "Rafael Batista",
+        "nome_apelido": "Rian",
+        "cpf": "1234567891",
+        "email": "rafaelbatista@gmail.com",
+        "senha": "1234",
+        "cep": "15825146"
+    },
+    {
+        "nome_completo": "Lany",
+        "nome_apelido": "Lany",
+        "cpf": "1234567899",
+        "email": "lany@gmail.com",
+        "senha": "lany",
+        "cep": "12345678"
+    },
+    {
+        "nome_completo": "Nick",
+        "nome_apelido": "Nick",
+        "cpf": "1234567899",
+        "email": "nick@gmail.com",
+        "senha": "1234",
+        "cep": "15825000"
+    }
+]
