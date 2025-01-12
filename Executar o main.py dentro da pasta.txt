@@ -1,0 +1,1 @@
+Executar o main.py dentro da pasta
