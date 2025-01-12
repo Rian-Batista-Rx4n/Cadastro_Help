@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/login_help.css">
+    <title>Help! Login</title>
+</head>
+<body>
+    <div id="fundo_login">
+        <img id="logo_help" src="../static/imagens/logo.png" alt="">
+        <div id="frente_login">
+            <form action="/login_help" method="post">
+                <label for="nome_completo">Nome Completo:</label>
+                <input maxlength="30" type="text" name="nome_completo" id="nome_completo" required placeholder="EX. Rian Batista"><br>
+                <label for="nome_apelido">Nome no Site:</label>
+                <input maxlength="30" type="text" name="nome_apelido" id="nome_apelido" required placeholder="EX. Rx4n"><br>
+                <label for="cpf">CPF:</label>
+                <input maxlength="10" type="text" name="cpf" id="cpf" required placeholder="EX. 123.456.789-0"><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required placeholder="EX. rx4n@gmail.com"><br>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" required placeholder="EX. 1234@Senha_"><br>
+                <label for="cep">CEP:</label>
+                <input maxlength="8" type="text" name="cep" id="cep" required placeholder="EX. 15825-007"><br>
+                <div id="area_botao">
+                    <!-- Botão para realizar login -->
+                    <button type="submit" id="botao_login">
+                        LOGIN
+                    </button>
+                    <!-- Botão para redirecionar para a página de cadastro -->
+                    <button type="button" id="botao_cadastrar" onclick="window.location.href='/cadastro_help';">
+                        CADASTRAR
+                    </button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+    <script src="../static/login_help.js"></script>
+</body>
+</html>
