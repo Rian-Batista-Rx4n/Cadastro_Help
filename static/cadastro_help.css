@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(255, 198, 157);
+}
+
+#logo_help{
+    width: 8%;
+}
+
+#fundo_login{
+    margin: auto;
+    text-align: center;
+}
+
+#frente_login {
+    margin: auto;
+    background-color: rgb(255, 219, 183);
+    border-radius: 10px;
+    border-color: rgb(206, 103, 0);
+    border-style: solid;
+    width: 35%;
+    height: 35em;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.411);
+}
+
+label{
+    font-weight: bold;
+    font-size: 150%;
+    color: rgb(255, 128, 64);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input{
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 2em;
+    width: 90%;
+    font-size: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.411);
+}
+
+#area_botao{
+    width: 80%;
+    text-align: center;
+    line-height: 2vw;
+}
+
+#botao_cadastrar{
+    margin-top: 1%;
+    cursor: pointer;
+    text-align: center;
+    line-height: 2em;
+    width: 40%;
+    height: 2em;
+    background-color: rgb(255, 128, 0);
+    border-color: rgb(206, 103, 0);
+    border-style: solid;
+    border-radius: 10px;
+    font: bold 1.5vw Arial;
+    color: white;
+    margin-bottom: 1%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.411);
+}
